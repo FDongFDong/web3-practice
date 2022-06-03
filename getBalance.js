@@ -1,7 +1,10 @@
+require('dotenv').config();
+const Web3 = require('web3');
 // getBalance.js
 // infura는 뭐하는 곳?
-const Web3 = require('web3');
-const rpcURL = 'https://ropsten.infura.io/v3/622e714bb19a49f2b2966ccb88137353';
+
+const rpcURL = process.env.RPCURL;
+
 const web3 = new Web3(rpcURL);
 
 const account = '0x4EBbD4881a45B836bAc17EA52F1BcEF72b787B0e';
