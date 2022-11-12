@@ -26,7 +26,7 @@ ___
 ### 사전 필요한 작업
 > [contract.py](https://github.com/FDongFDong/web3-practice/blob/main/python/contract.py)
 - 리믹스를 통한 ERC20 토큰 배포 후 배포된 네트워크 주소
-  - [ERC20.sol]()
+  - [ERC20.sol](https://github.com/FDongFDong/solidity_practice/blob/main/contracts/Mint.sol)
 - ABI 
   - [ERC20.json](https://github.com/FDongFDong/web3-practice/blob/main/python/ERC20.json)
 ![image](https://user-images.githubusercontent.com/20445415/201461463-bef0e7bf-5694-4a65-8688-d83a18ed9f52.png)
