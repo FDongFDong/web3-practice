@@ -1,8 +1,6 @@
-# web3-practice
+# python
 
-## python
-
-### web3
+## web3
 
 > [web3.py]()
 
@@ -13,8 +11,8 @@
 
 - 트랜잭션 조회
   - ![image](https://user-images.githubusercontent.com/20445415/201458665-dc4c147c-ac38-4800-9b80-6f0f6963d901.png)
-
-### 트랜잭션 처리(이더리움 전송)
+___
+## 트랜잭션 처리(이더리움 전송)
 > [transaction.py]()
 
 ![image](https://user-images.githubusercontent.com/20445415/201459560-89f730e6-0a95-40e8-b942-5277c11e79a9.png)
@@ -22,4 +20,12 @@
 
 ___
 
-## javascript
+## 컨트랙트와 연동 및 이더리움 전송
+
+
+### 사전 필요한 작업
+- 리믹스를 통한 ERC20 토큰 배포 후 배포된 네트워크 주소
+  - (ERC20.sol)[]
+- ABI 
+  - (ERC20.json)[]
+# javascript
