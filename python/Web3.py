@@ -12,12 +12,18 @@ class HexJsonEncoder(json.JSONEncoder):
 
 
 w3 = Web3(Web3.HTTPProvider(
-    ''))
+    'https://goerli.infura.io/v3/622e714bb19a49f2b2966ccb88137353'))
 
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 # 연결이 되었는지 확인하는 함수
 print(w3.isConnected())
-# 블록 조회
-print("Get Last Block")
+# 최근 블록 정보 조회
 latestBlock = w3.eth.get_block('latest')
 print(json.dumps(dict(latestBlock), cls=HexJsonEncoder))
+# 트랜잭션 처리(블록 안에있는 모든 트랜잭션 id 값들을 가져올 수 있다.)
+txList = latestBlock.transactions
+for tx in txList:
+    print("---------------------------------")
+    print(Web3.toHex(tx))  # tx id를 16진수로 출력
+    txDetail = w3.eth.getTransaction(Web3.toHex(tx))
+    print(json.dumps(dict(txDetail), cls=HexJsonEncoder))
