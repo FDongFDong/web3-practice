@@ -25,7 +25,7 @@ ___
 
 ### 사전 필요한 작업
 - 리믹스를 통한 ERC20 토큰 배포 후 배포된 네트워크 주소
-  - (ERC20.sol)[]
+  - [ERC20.sol]()
 - ABI 
-  - (ERC20.json)[]
+  - [ERC20.json]()
 # javascript
