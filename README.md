@@ -41,10 +41,12 @@ ___
 # Javascript
 
 ## NFT 거래소(특정 컨트랙트)에서 특정 이벤트 발생 시 정보 가져오기
-[web3Js]()
+[web3Js](https://github.com/FDongFDong/web3-practice/tree/main/JS/web3Js)
 
 - index.js
 - subscribe.js 
   - 특정 이벤트를 비동기적으로 체크
 - dbUtill.js
   - sqlite3에 데이터 저장
+
+![image](https://user-images.githubusercontent.com/20445415/201467883-508a3441-3004-46a9-a211-e6d1a760c092.png)
