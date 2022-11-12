@@ -17,6 +17,8 @@
 ### 트랜잭션 처리(이더리움 전송)
 > [transaction.py]()
 
+![image](https://user-images.githubusercontent.com/20445415/201459560-89f730e6-0a95-40e8-b942-5277c11e79a9.png)
+![image](https://user-images.githubusercontent.com/20445415/201459540-cfe4e23b-c68d-4ba8-9726-07cc98cf0472.png)
 
 ___
 
