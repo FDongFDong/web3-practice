@@ -38,4 +38,13 @@ ___
 - Etherscan 결과
  ![image](https://user-images.githubusercontent.com/20445415/201461437-af74b14e-d914-4f10-b2ec-58342387c215.png)
 
-# javascript
+# Javascript
+
+## NFT 거래소(특정 컨트랙트)에서 특정 이벤트 발생 시 정보 가져오기
+[web3Js]()
+
+- index.js
+- subscribe.js 
+  - 특정 이벤트를 비동기적으로 체크
+- dbUtill.js
+  - sqlite3에 데이터 저장
