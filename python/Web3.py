@@ -2,6 +2,9 @@ from web3 import Web3
 from web3.middleware import geth_poa_middleware  # poa를 처리해주기 위함
 import json
 from hexbytes import HexBytes
+from dotenv import load_dotenv
+import os
+load_dotenv(verbose=True)
 
 
 class HexJsonEncoder(json.JSONEncoder):
@@ -11,8 +14,7 @@ class HexJsonEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
-w3 = Web3(Web3.HTTPProvider(
-    'https://goerli.infura.io/v3/622e714bb19a49f2b2966ccb88137353'))
+w3 = Web3(Web3.HTTPProvider(os.getenv("RPCURL")))
 
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 # 연결이 되었는지 확인하는 함수
