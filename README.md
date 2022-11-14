@@ -3,7 +3,7 @@
   - [트랜잭션 처리(이더리움 전송)](#트랜잭션-처리---이더리움-전송)
   - [컨트랙트와 연동 및 이더리움 전송](#컨트랙트와-연동-및-이더리움-전송)
 - [JS](#Javascript)
-
+  - [특정 컨트랙트에서 특정 이벤트 발생 시 정보 가져오기 - NFT 거래소](#특정-컨트랙트에서-특정-이벤트-발생-시-정보-가져오기---NFT-거래소)
 ## Python
 
 ### web3
@@ -46,8 +46,8 @@ ___
 
 ## Javascript
 
-### NFT 거래소(특정 컨트랙트)에서 특정 이벤트 발생 시 정보 가져오기
-[web3Js](https://github.com/FDongFDong/web3-practice/tree/main/JS/web3Js)
+### 특정 컨트랙트에서 특정 이벤트 발생 시 정보 가져오기 - NFT 거래소
+[web3.Js](https://github.com/FDongFDong/web3-practice/tree/main/JS/web3Js)
 
 - index.js
 - subscribe.js 
