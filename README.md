@@ -1,5 +1,5 @@
 - [Python](#Python)
-  - [web3](#we3)
+  - [web3](#web3)
   - [트랜잭션 처리(이더리움 전송)](#트랜잭션-처리(이더리움-전송))
 - [JS](#Javascript)
 
