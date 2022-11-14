@@ -47,7 +47,7 @@ ___
 ## Javascript
 
 ### 특정 컨트랙트에서 특정 이벤트 발생 시 정보 가져오기 - NFT 거래소
-[web3.Js](https://github.com/FDongFDong/web3-practice/tree/main/JS/web3Js)
+> [web3.Js](https://github.com/FDongFDong/web3-practice/tree/main/JS/web3Js)
 
 - index.js
 - subscribe.js 
